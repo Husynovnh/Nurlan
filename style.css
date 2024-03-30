@@ -11,8 +11,8 @@ a {
   width: 170px;
   height: 170px;
   border: 2px solid;
-  background-color: #759beb;
-  border: 3px solid #034504;
+  background-color: #5183a7;
+  border: 3px solid #7b98a0;
   margin: 30px;
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@ a {
   color: white;
   width: 75px;
   height: 75px;
-  background-color: #1627db;
+  background-color: #345880;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,8 +53,8 @@ a {
   justify-content: center;
 }
 #demo .minibox {
-  border: 7px solid #584148;
-  background-color: #584148;
+  border: 7px solid #88637b;
+  background-color: #88637b;
   width: 200px;
   height: 100px;
   border-radius: 7px;
@@ -62,17 +62,44 @@ a {
 }
 #demo .minibox:hover {
   transition: 2s;
-  background-color: #585888;
+  background-color: #52485b;
+}
+@media screen and (max-width: 800px) {
+  #demo .box {
+    margin: 0px;
+  }
+  #demo .box .minibox {
+    margin: 0px;
+    width: 100px;
+    height: 50px;
+    background-color: #7584bf;
+    border: 1px solid white;
+  }
+}
+@media screen and (max-width: 500px) {
+  #demo .box {
+    margin: 0px;
+  }
+  #demo .box .minibox {
+    margin: 0px;
+    width: 60px;
+    height: 60px;
+    background-color: #3a1e2b;
+    border: 1px solid #3a1e2b;
+  }
+  #demo .box .minibox h3 {
+    font-size: 13px;
+  }
 }
 
 #circle .box {
   display: flex;
-  gap: 3cm;
+  justify-content: space-between;
 }
 #circle .box .minibox {
   width: 170px;
   height: 170px;
-  background-color: #B8860B;
+  background-color: #966d49;
   margin: 10px;
   border-radius: 90px;
   display: flex;
@@ -90,7 +117,6 @@ a {
   height: 170px;
   border-radius: 40px;
 }
-
 #text .box h2 {
   font-size: 25px;
   font-weight: 700;
@@ -102,7 +128,7 @@ a {
   align-items: center;
   width: 250px;
   height: 200px;
-  background-color: #4682B4;
+  background-color: #476a8b;
   margin: 10px;
 }
 #text .box .miniboxx {
@@ -111,7 +137,7 @@ a {
   align-items: center;
   width: 250px;
   height: 200px;
-  background-color: #4682B4;
+  background-color: #476a8b;
   margin: 10px;
   position: absolute;
   top: 1440px;
@@ -129,7 +155,7 @@ a {
   align-items: center;
   width: 250px;
   height: 200px;
-  background-color: #047443;
+  background-color: #7b9f6e;
   margin: 10px;
 }
 #TEXT .box .miniboxx {
@@ -138,7 +164,7 @@ a {
   align-items: center;
   width: 250px;
   height: 200px;
-  background-color: #047443;
+  background-color: #7b9f6e;
   margin: 10px;
   position: absolute;
   top: 1870px;
